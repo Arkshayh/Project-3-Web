@@ -13,9 +13,34 @@ body{
 header{
     grid-area: header;
     text-align: center; /*Centrer le header*/
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1{
+    text-decoration: underline;
 }
 nav{
     grid-area: menu;
+    color: white;
+    background-color: rgb(63, 63, 63);
+    text-align: center;
+    border: solid; 
+    border-color: rgb(175, 175, 175);
+}
+#Menu{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+ul{
+    padding-left: 10px; /*espace à gauche entre limite et les éléments du menu*/
+    padding-right: 10px     ;
+    list-style-type: none; /* pas de truc à droite dans le menu */
+    line-height: 2em; /*écart entre les lignes du menu*/
+    font-weight: bold;
 }
 main{
     grid-area: main;
@@ -23,4 +48,17 @@ main{
 }
 footer{
     grid-area: footer;
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: small;
+}
+a:link, a:visited{
+    color: white;
+    text-decoration:none; 
+} 
+a:hover{
+    color:rgb(106, 155, 158)
 }
