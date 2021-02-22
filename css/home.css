@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; /*Police de toute la page*/
+
+    margin: 0px; /*Pour qu'il n'y ai pas d'écart entre les éléments et les côtés de base*/
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "header header"
+                          "menu main"
+                          "footer footer" ;
+    grid-gap: 0px; /*écart entre les différentes parties    */
+}
+header{
+    grid-area: header;
+    text-align: center; /*Centrer le header*/
+}
+nav{
+    grid-area: menu;
+}
+main{
+    grid-area: main;
+    padding-left: 15px;
+}
+footer{
+    grid-area: footer;
+}
