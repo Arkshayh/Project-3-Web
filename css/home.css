@@ -18,6 +18,8 @@ header{
     font-size: 2em;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 h1{
     text-decoration: underline;
@@ -36,17 +38,17 @@ h1{
     text-decoration: underline;
 }
 #ulMenu{
-    padding-left: 10px; /*espace à gauche entre limite et les éléments du menu*/
-    padding-right: 10px     ;
-    list-style-type: none; /* pas de truc à droite dans le menu */
-    line-height: 2em; /*écart entre les lignes du menu*/
+    padding-left: 10px; 
+    padding-right: 10px;
+    list-style-type: none; 
+    line-height: 2em; 
     font-weight: bold;
 }
 #ulSommaire{
-    padding-left: 10px; /*espace à gauche entre limite et les éléments du menu*/
-    padding-right: 10px     ;
-    list-style-type:decimal; /* pas de truc à droite dans le menu */
-    line-height: 2em; /*écart entre les lignes du menu*/
+    padding-left: 10px; 
+    padding-right: 10px;
+    list-style-type:decimal; 
+    line-height: 2em;
     font-weight: bold;
 }
 #Sommaire{
@@ -56,11 +58,15 @@ h1{
     text-align: center;
     border: solid; 
     border-color: rgb(175, 175, 175);
+    padding-left: 10px;
 }
 #EnteteSommaire{
     font-size: 1.5em;
     padding-bottom: 10px;
     text-decoration: underline;
+}
+.liSommaire{
+    font-size: 0.8em;
 }
 main{
     grid-area: main;
