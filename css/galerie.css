@@ -55,3 +55,22 @@ footer{
     padding-top: 10px;
     font-size: small;
 }
+a:link, a:visited{
+    color: white;
+    text-decoration:none; 
+} 
+a:hover{
+    color:rgb(106, 155, 158);
+}
+img{
+    height: 256px;
+}
+table{
+    margin: auto;
+}
+td{
+    padding: 5px;
+}
+h1{
+    
+}
