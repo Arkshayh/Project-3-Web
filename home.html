@@ -6,6 +6,8 @@
     <meta name="keyword" content="esi, projet 1, he2b, home">
     <title>home projet 1</title>
     <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Roboto:wght@300&display=swap" 
+    rel="stylesheet"> 
 </head>
 <body>
     <header>
@@ -15,28 +17,32 @@
         <ul id="ulMenu">
             <div id="Menu">Menu</div>
             <li><a href="home.html">Accueil</a></li>
-            <li><a href="">???</a></li>
-            <li><a href="">???</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+            <li><a href="">Tableau</a></li>
         </ul>
     </nav>
     <nav id="Sommaire">
-        <ul id="ulSommaire">
+        <ol id="olSommaire">
             <div id="EnteteSommaire">Sommaire</div>
-            <li class="liSommaire"><a href="">Intelligence artificielle</a></li>
-            <li class="liSommaire"><a href="">Definition</a></li>
-            <li class="liSommaire"><a href="">IA forte</a></li>
-        </ul>
+            <li class="liSommaire"><a href="#IA">Intelligence artificielle</a></li>
+            <li class="liSommaire"><a href="#Définition">Definition</a></li>
+            <li class="liSommaire"><a href="#IAForte">Intelligence artificielle forte</a></li>
+            <li class="liSommaire"><a href="#IAFaible">Intelligence artificielle faible</a></li>
+            <li class="liSommaire"><a href="#narrowAI">Distinction avec « narrow AI »</a></li>  
+        </ol>
     </nav>
     <main>
         <h1 id="IA">Intelligence artificielle</h1>
-        <p>
+        <p id="paragraphe1">
+            <img src="img/intelligence-artificielle.jpg" alt="intelligence artificielle" title="IA Image">
             L'intelligence artificielle (IA) est « l'ensemble des théories et des techniques mises en œuvre en vue de 
             réaliser des machines capables de simuler l'intelligence humaine ». <br> <br>
             Souvent classée dans le groupe des sciences cognitives, elle fait appel à la neurobiologie computationnelle 
             (particulièrement aux réseaux neuronaux), à la logique mathématique (partie des mathématiques et de la philosophie)
             et à l'informatique. Elle recherche des méthodes de résolution de problèmes à forte complexité logique ou algorithmique. 
             Par extension elle désigne, dans le langage courant, les dispositifs imitant ou remplaçant l'homme dans certaines 
-            mises en œuvre de ses fonctions cognitives. <br><br>    
+            mises en œuvre de ses fonctions cognitives.
+            <br><br>    
             Ses finalités et son développement suscitent, depuis toujours, de nombreuses interprétations, fantasmes ou inquiétudes s'exprimant tant dans les récits ou films de science-fiction que dans les essais philosophiques.
             La réalité semble encore tenir l'intelligence artificielle loin des performances du vivant ; ainsi, l'IA reste encore bien inférieure au chat dans toutes ses aptitudes naturelles.
         </p>
@@ -44,8 +50,17 @@
             Définition
         </h2>
         <p>
-            Le terme « intelligence artificielle », créé par John McCarthy, est souvent abrégé par le sigle « IA » (ou « AI » en anglais, pour Artificial Intelligence). Il est défini par l’un de ses créateurs, Marvin Lee Minsky, comme « la construction de programmes informatiques qui s’adonnent à des tâches qui sont, pour l’instant, accomplies de façon plus satisfaisante par des êtres humains car elles demandent des processus mentaux de haut niveau tels que : l’apprentissage perceptuel, l’organisation de la mémoire et le raisonnement critique ». 
-            On y trouve donc le côté « artificiel » atteint par l'usage des ordinateurs ou de processus électroniques élaborés et le côté « intelligence » associé à son but d'imiter le comportement. Cette imitation peut se faire dans le raisonnement, par exemple dans les jeux ou la pratique des mathématiques, dans la compréhension des langues naturelles, dans la perception : visuelle (interprétation des images et des scènes), auditive (compréhension du langage parlé) ou par d'autres capteurs, dans la commande d'un robot dans un milieu inconnu ou hostile. 
+            Le terme « intelligence artificielle », créé par John McCarthy, est souvent abrégé par le sigle « IA » (ou « AI » en anglais, pour Artificial Intelligence). 
+            Il est défini par l’un de ses créateurs, Marvin Lee Minsky, comme « la construction de programmes informatiques qui 
+            s’adonnent à des tâches qui sont, pour l’instant, accomplies de façon plus satisfaisante par des êtres humains car 
+            elles demandent des processus mentaux de haut niveau tels que : l’apprentissage perceptuel, l’organisation de la 
+            mémoire et le raisonnement critique ». 
+            On y trouve donc le côté « artificiel » atteint par l'usage des ordinateurs ou de processus électroniques élaborés 
+            et le côté « intelligence » associé à son but d'imiter le comportement. Cette imitation peut se faire dans le 
+            raisonnement, par exemple dans les jeux ou la pratique des mathématiques, dans la compréhension des langues 
+            naturelles, dans la perception : visuelle (interprétation des images et des scènes), auditive 
+            (compréhension du langage parlé) ou par d'autres capteurs, dans la commande d'un robot dans un milieu inconnu ou 
+            hostile. 
             <br> <br>
             Même si elles respectent globalement la définition de Minsky, certaines définitions de l'IA varient sur deux points fondamentaux : 
             <br>
@@ -59,17 +74,74 @@
             </ul>
 
         </p>
-        <h2>Intelligence artificielle forte</h2>
+        <h2 id="IAForte">Intelligence artificielle forte</h2>
         <p>
-            Le concept d’intelligence artificielle forte fait référence à une machine capable non seulement de produire un comportement intelligent, notamment de modéliser des idées abstraites, mais aussi d’éprouver une impression d'une réelle conscience, de « vrais sentiments » (quoi qu’on puisse mettre derrière ces mots), et « une compréhension de ses propres raisonnements ».
-            <br>
+            Le concept d’intelligence artificielle forte fait référence à une machine capable non seulement de produire un 
+            comportement intelligent, notamment de modéliser des idées abstraites, mais aussi d’éprouver une impression d'une 
+            réelle conscience, de « vrais sentiments » (quoi qu’on puisse mettre derrière ces mots), et « une compréhension de 
+            ses propres raisonnements ».
+            <br><br>
             L’intelligence artificielle forte a servi de moteur à la discipline, mais a également suscité de nombreux débats.
-            <br>
-            En partant du principe, étayé par les neurosciences80, que la conscience a un support biologique et donc matériel, les scientifiques ne voient généralement pas d’obstacle théorique à la création d'une intelligence consciente sur un support matériel autre que biologique. Selon les tenants de l'IA forte, si à l'heure actuelle il n'y a pas d'ordinateurs ou d'algorithmes aussi intelligents que l'être humain, ce n'est pas un problème d'outil mais de conception. Il n'y aurait aucune limite fonctionnelle (un ordinateur est une machine de Turing universelle avec pour seules limites celles de la calculabilité), seulement des limites liées à l'aptitude humaine à concevoir les logiciels appropriés (programme, base de données...). 
+            <br><br>
+            En partant du principe, étayé par les neurosciences, que la conscience a un support biologique et donc matériel, 
+            les scientifiques ne voient généralement pas d’obstacle théorique à la création d'une intelligence consciente sur 
+            un support matériel autre que biologique. Selon les tenants de l'IA forte, si à l'heure actuelle il n'y a pas 
+            d'ordinateurs ou d'algorithmes aussi intelligents que l'être humain, ce n'est pas un problème d'outil mais de 
+            conception. Il n'y aurait aucune limite fonctionnelle (un ordinateur est une machine de Turing universelle avec 
+            pour seules limites celles de la calculabilité), seulement des limites liées à l'aptitude humaine à concevoir les 
+            logiciels appropriés (programme, base de données...). 
         </p>
-
+        <h2 id="IAFaible">Intelligence artificielle faible</h2>
+        <p>
+            La notion d’intelligence artificielle faible constitue une approche pragmatique d’ingénieur : chercher 
+            à construire des systèmes de plus en plus autonomes (pour réduire le coût de leur supervision), des 
+            algorithmes capables de résoudre des problèmes d’une certaine classe, etc. Mais, cette fois, la machine 
+            simule l'intelligence, elle semble agir comme si elle était intelligente. On en voit des exemples concrets 
+            avec les programmes conversationnels qui tentent de passer le test de Turing, comme ELIZA. Ces logiciels 
+            parviennent à imiter de façon grossière le comportement d'humains face à d'autres humains lors d'un dialogue. 
+            <br><br>
+            Joseph Weizenbaum, créateur du programme ELIZA, met en garde le public dans son ouvrage Computer Power and Human 
+            Reason : si ces programmes « semblent » intelligents, ils ne le sont pas : ELIZA simule très grossièrement un 
+            psychologue en relevant immédiatement toute mention du père ou de la mère, en demandant des détails sur tel élément 
+            de phrase et en écrivant de temps en temps « Je comprends. », mais son auteur rappelle qu'il s'agit d'une simple 
+            mystification : le programme ne comprend en réalité rien. 
+            <br><br>
+            Les tenants de l'IA forte admettent que s'il y a bien dans ce cas simple simulation de comportements intelligents, 
+            il est aisé de le découvrir et qu'on ne peut donc généraliser. En effet, si on ne peut différencier 
+            expérimentalement deux comportements intelligents, celui d'une machine et celui d'un humain, comment peut-on 
+            prétendre que les deux choses ont des propriétés différentes ? Le terme même de « simulation de l'intelligence » 
+            est contesté et devrait, toujours selon eux, être remplacé par « reproduction de l'intelligence ». 
+            <br><br>
+            Les tenants de l'IA faible arguent que la plupart des techniques actuelles d’intelligence artificielle sont 
+            inspirées de leur paradigme. Ce serait par exemple la démarche utilisée par IBM dans son projet nommé Autonomic 
+            computing. La controverse persiste néanmoins avec les tenants de l'IA forte qui contestent cette interprétation. 
+            <br><br>
+            Simple évolution, donc, et non révolution : l’intelligence artificielle s’inscrit à ce compte dans la droite 
+            succession de ce qu’ont été la recherche opérationnelle dans les années 1960, la supervision 
+            (en anglais : process control) dans les années 1970, l’aide à la décision dans les années 1980 et 
+            l’exploration de données dans les années 1990. Et, qui plus est, avec une certaine continuité. 
+            <br>
+            Il s'agit surtout d'intelligence humaine reconstituée, et de programmation ad hoc d'un apprentissage, sans qu'une 
+            théorie unificatrice n'existe pour le moment (2011). Le théorème de Cox-Jaynes indique toutefois, ce qui est un 
+            résultat fort, que sous cinq contraintes raisonnables, tout procédé d'apprentissage devra être soit conforme à 
+            l'inférence bayésienne, soit incohérent à terme, donc inefficace.
+        </p>
+        <h3 id="narrowAI">Distinction avec « narrow AI »</h3>
+        <p>
+            Si le terme intelligence artificielle peut désigner un système capable de résoudre plusieurs problèmes de façon 
+            relativement autonome tout en ne faisant que simuler le principe d'intelligence, il peut aussi désigner des systèmes 
+            capables de résoudre uniquement un type de problème pour un jeu de données prédéfini.
+            <br><br>
+            On peut donner pour exemple un système entrainé à reconnaitre des chiffres écrits à la main, comme ceux utilisés 
+            par La Poste, qui malgré sa grande performance sur sa tâche, serait incapable de fonctionner sur un problème 
+            sortant de ce pour quoi il a été conçu. <br><br>
+            Ces intelligences artificielles, nommées « narrow AI » (« intelligence artificielle étroite »), sont conçues 
+            spécifiquement sur une tâche, sans développement particulier pour la généraliser comme le ferait une IA forte. 
+            Elles n'en gardent pas moins leur utilité, et restent très utilisées dans l'industrie, étant les seuls systèmes 
+            d'IA utilisables jusqu'à ce qu'une IA forte soit accessible et commercialisée. 
+        </p>
     </main>
-    <footer>Matricule : 55019 | Nom & Prénom : Cotton Ian | groupe : B142 |
+    <footer>Source utilisée : <a href="https://fr.wikipedia.org/wiki/Intelligence_artificielle" id="sourceWiki"> Wikipedia</a> | Matricule : 55019 | Nom & Prénom : Cotton Ian | groupe : B142 |
          Professeur labo : Thibaut Nicodeme (TNI)
     </footer>
 </body>
