@@ -30,6 +30,18 @@ header{
     border: solid; 
     border-color: rgb(175, 175, 175);
 }
+#Menu{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+#ulMenu{
+    padding-left: 10px; 
+    padding-right: 10px;
+    list-style-type: none; 
+    line-height: 2em; 
+    font-weight: bold;
+}
 main{
     grid-area: main;
     padding-left: 15px;
