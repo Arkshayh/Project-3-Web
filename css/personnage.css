@@ -66,13 +66,12 @@ img{
     height: 256px;
 }
 table{
+    border-collapse: collapse;
     margin: auto;
     border: solid;
 }
 td{
-    
+    border: solid;
     padding: 5px;
 }
-h1{
-    
-}
+
