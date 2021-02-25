@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; /*Police de toute la page*/
+
+    margin: 0px; /*Pour qu'il n'y ai pas d'écart entre les éléments et les côtés de base*/
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "header header"
+                          "menu main"
+                          "footer footer" ;
+    grid-gap: 0px; /*écart entre les différentes parties    */
+}
+header{
+    grid-area: header;
+    text-align: center; /*Centrer le header*/
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: DotGothic16;
+}
+#navMenu{
+    grid-area: menu;
+    color: white;
+    background-color: rgb(63, 63, 63);
+    text-align: center;
+    border: solid; 
+    border-color: rgb(175, 175, 175);
+}
+#Menu{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+#ulMenu{
+    padding-left: 10px; 
+    padding-right: 10px;
+    list-style-type: none; 
+    line-height: 2em; 
+    font-weight: bold;
+}
+main{
+    grid-area: main;
+    padding-left: 15px;
+}
+footer{
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: small;
+}
+a:link, a:visited{
+    color: white;
+    text-decoration:none; 
+} 
+a:hover{
+    color:rgb(106, 155, 158);
+}
+#gameplay{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
+.imageGp{
+    height: 300px;
+    align-self: center;
+}
+#sbs{
+    height: 100px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Sakurai{
+    float: left;
+    height: 300px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+.liDescr{
+    line-height: 3em;
+}
