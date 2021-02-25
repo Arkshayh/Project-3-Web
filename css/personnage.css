@@ -67,8 +67,10 @@ img{
 }
 table{
     margin: auto;
+    border: solid;
 }
 td{
+    
     padding: 5px;
 }
 h1{
