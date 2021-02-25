@@ -74,4 +74,44 @@ td{
     border: solid;
     padding: 5px;
 }
+#marioPiti{
+    height: 108px;
 
+}
+#dkPiti{
+    height: 180px;
+}
+#linkPiti{
+    height: 255px;
+}
+.imageDescription{
+    border:solid;
+    float: right;
+}
+#samu{
+    height: 75px;
+}
+#yoshi{
+    height: 150px;
+}
+#Kirby{
+    height: 72px;
+}
+#fox{
+    height: 129px;
+}
+#Pikachu{
+    height: 201px;
+}
+#Mario2{
+    height: 129px;
+}
+#sans{
+    height: 126px;
+}
+#CF{
+    height: 309px;
+}
+#RDD{
+    height: 111px;
+}
