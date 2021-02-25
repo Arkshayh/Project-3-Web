@@ -45,6 +45,7 @@ header{
 main{
     grid-area: main;
     padding-left: 15px;
+    background-color: #7b7b7b;
 }
 footer{
     grid-area: footer;
@@ -62,27 +63,15 @@ a:link, a:visited{
 a:hover{
     color:rgb(106, 155, 158);
 }
-#gameplay{
-    display: flex;
-    justify-content: space-evenly; 
-    flex-wrap: wrap;
+h1{
+    text-decoration: underline;
 }
-.imageGp{
-    height: 300px;
-    align-self: center;
+::placeholder{
+    background-color: rgb(58, 119, 101);
+    color: rgb(56, 17, 33);
+    font-weight: bold;
 }
-#sbs{
-    height: 100px;
-    
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-#Sakurai{
-    float: left;
-    height: 300px;
-    margin-bottom: 10px;
-    margin-right: 50px;
-}
-.liDescr{
-    line-height: 3em;
+#commentaire{
+    min-width: 500px;
+    min-height: 200px;
 }
